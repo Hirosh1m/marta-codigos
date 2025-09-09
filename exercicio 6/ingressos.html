@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ingressos - Defones Show 2024</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ingressos - Defones Show 2024</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="ingressos.html" class="active">Ingressos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="Ingressos">
+            <div class="container">
+                <h2>Escolha seu ingresso</h2>
+                <table class="tickets">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">
+                                <input type="radio" id="ticket1" name="ticket" />
+                                <label for="ticket1" class="ticket-label">
+                                    <table class="inner-table">
+                                        <tr>
+                                            <td>Ingresso Pista</td>
+                                            <td>Acesso à área geral do show</td>
+                                            <td>R$ 120,00</td>
+                                        </tr>
+                                    </table>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <input type="radio" id="ticket2" name="ticket" />
+                                <label for="ticket2" class="ticket-label">
+                                    <table class="inner-table">
+                                        <tr>
+                                            <td>Ingresso VIP</td>
+                                            <td>Acesso à área VIP com benefícios exclusivos</td>
+                                            <td>R$ 300,00</td>
+                                        </tr>
+                                    </table>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <input type="radio" id="ticket3" name="ticket" />
+                                <label for="ticket3" class="ticket-label">
+                                    <table class="inner-table">
+                                        <tr>
+                                            <td>Ingresso Camarote</td>
+                                            <td>Vista privilegiada e serviço exclusivo</td>
+                                            <td>R$ 500,00</td>
+                                        </tr>
+                                    </table>
+                                </label>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="contato.html" class="btn-primary">Fale Conosco para Comprar</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 Defones Show. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
